@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container-1">
+    <form action="" class="form">
+        <input type="text" class="input" id="input">       
+    </form>
+</div> 
+<div class="container-2">  
+  <div class="wrapper">
+    <input class="hidden-trigger" id="toogle" type="checkbox">
+    <label class="circle" for="toogle">
+      <img src="https://ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/2x/btw_ic_speeddial_white_24dp_2x.png" alt="" />
+    </label>
+    
+    <div class="subs">
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub1" type="radio" name="sub-circle" value="1" onclick="dis('1')"/>
+        <label for="sub1">1</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub2" type="radio" name="sub-circle" value="2" onclick="dis('2')"/>
+        <label for="sub2">2</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub3" type="radio" name="sub-circle" value="3" onclick="dis('3')"/>
+        <label for="sub3">3</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub4" type="radio" name="sub-circle" value="4" onclick="dis('4')"/>
+        <label for="sub4">4</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub5" type="radio" name="sub-circle" value="5" onclick="dis('5')"/>
+        <label for="sub5">5</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub6" type="radio" name="sub-circle" value="6" onclick="dis('6')"/>
+        <label for="sub6">6</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub7" type="radio" name="sub-circle" value="7"  onclick="dis('7')"/>
+        <label for="sub7">7</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub8" type="radio" name="sub-circle" value="8" onclick="dis('8')"/>
+        <label for="sub8">8</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub9" type="radio" name="sub-circle" value="9" onclick="dis('9')"/>
+        <label for="sub9">9</label>
+      </button>
+      <button class="sub-circle">
+        <input class="hidden-sub-trigger" id="sub10" type="radio" name="sub-circle" value="0" onclick="dis('0')"/>
+        <label for="sub10">0</label>
+      </button>
+      <button class="sub-circle">
+          <input class="hidden-sub-trigger" id="sub11" type="radio" name="sub-circle" value="(" onclick="dis('.')"/>
+          <label for="sub11">.</label>
+      </button>
+      <button class="sub-circle">
+          <input class="hidden-sub-trigger" id="sub12" type="radio" name="sub-circle" value=")" onclick="dis('()')"/>
+          <label for="sub12">( )</label>
+      </button>
+      
+    </div>
+  </div>
+
+
+  <div class="wrapper2">
+      <input class="hidden-trigger2" id="toogle2" type="checkbox">
+      <label class="circle2" for="toogle2">
+        <img src="https://ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/2x/btw_ic_speeddial_white_24dp_2x.png" alt="" />
+      </label>
+      
+      <div class="subs2">
+        <button class="sub-circle">
+          <input class="hidden-sub2-trigger" id="sub13" type="radio" name="sub-circle" value="+" onclick="dis('+')"/>
+          <label for="sub13">+</label>
+        </button>
+        <button class="sub-circle">
+          <input class="hidden-sub2-trigger" id="sub14" type="radio" name="sub-circle" value="-" onclick="dis('-')"/>
+          <label for="sub14">-</label>
+        </button>
+        <button class="sub-circle">
+          <input class="hidden-sub2-trigger" id="sub15" type="radio" name="sub-circle" value="*" onclick="dis('*')"/>
+          <label for="sub15">*</label>
+        </button>
+        <button class="sub-circle">
+          <input class="hidden-sub2-trigger" id="sub16" type="radio" name="sub-circle" value="/" onclick="dis('/')"/>
+          <label for="sub16">/</label>
+        </button>
+        <button class="sub-circle">
+          <input class="hidden-sub2-trigger" id="sub17" type="radio" name="sub-circle" value="%" onclick="dis('%')"/>
+          <label for="sub17">%</label>
+        </button>
+        <button class="sub-circle">
+          <input class="hidden-sub2-trigger" id="sub18" type="radio" name="sub-circle" value="^" onclick="dis('^')"/>
+          <label for="sub18">^</label>
+        </button>
+        <button class="sub-circle">
+          <input class="hidden-sub2-trigger" id="sub19" type="radio" name="sub-circle" value="" onclick="solve()"/>
+          <label for="sub19">=</label>
+        </button>
+        <button class="sub-circle">
+          <input class="hidden-sub2-trigger" id="sub20" type="radio" name="sub-circle" value="" onclick="clr()"/>
+          <label for="sub20">Clr</label>
+        </button>
+
+      </div>
+  </div>
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>
